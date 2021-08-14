@@ -1,0 +1,32 @@
+---
+---
+<style type="text/css">
+<!--
+ .tab { margin-left: 160px; margin-top: 0px;}
+ a {  target = "_blank"}
+-->
+</style>
+<style type="text/css">
+<!--
+ a {  target = "_blank"}
+-->
+</style>
+
+<br> 
+<p style="text-align: center; font-family:sans-serif; font-size:22px; ">Data informs learning.</p>
+<!-- <p style="text-align: center;font-family:CenturySch; font-size:18px;font-style:italic;"> --- Rainer Maria Rilke</p> -->
+<br> 
+
+<img src="asset/Eagle.jpg" style="width:40%;  margin-right: 120px" align="left">
+
+### About me
+***
+<p style="font-size:16px; LINE-HEIGHT:26px">
+I am a Ph.D. student in the [DELTA](https://education.illinois.edu/ci/programs-degrees/delta){target="_blank"} program at [the University of Illinois at Urbana-Champaign](https://illinois.edu/){target="_blank"}. Previously, I earned my master’s degree in educational measurement from [Beijing Normal University](https://english.bnu.edu.cn/){target="_blank"}. My research interests are how digital learning environments can support children in becoming self-regulated learners. I am currently using sequential analysis methods to detect students' strategic learning behavior. I am also interested in introductory computer science (CS1) education.
+<br><br>
+Here is my [CV](asset/CV_YZ.pdf).</p>
+<br><br>
+
+<!-- <a href="asset/CV_YZ.pdf"; style="color: #0B0B0B;"></a>  -->
+<!--   <p class="tab"; style = "font-size: 20px; text-decoration:underline"></p> -->
+  

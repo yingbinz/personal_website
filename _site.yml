@@ -1,0 +1,32 @@
+name: "my-website"
+navbar:
+  title: "Yingbin Zhang"
+#  text: "yingbin2@illinois.edu"
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+#   - icon: fa-google fa-lg
+# href: https://scholar.google.com/citations?user=Uyp5YeQAAAAJ&hl=en&oi=ao
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/YingbinZ
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/yingbin-zhang-5a4560185/
+      
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Projects"
+      href: Projects.html
+    - text: "Publications"
+      href: Publications.html
+
+output:
+  html_document:
+    theme: cosmo
+    highlight: tango
+    include:
+      after_body: footer.html
+
+
+
+
