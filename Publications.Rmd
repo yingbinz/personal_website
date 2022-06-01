@@ -9,7 +9,6 @@
 </style>
 
 <br> <br> 
- {\it Sage Open}
 
 ### Journal Article
 
