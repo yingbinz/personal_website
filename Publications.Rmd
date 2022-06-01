@@ -9,19 +9,22 @@
 </style>
 
 <br> <br> 
-
+ {\it Sage Open}
 
 ### Journal Article
 
 <p class = "hang">
 
-**Zhang, Y.**, Paquette, L., Baker, R. S., Bosch, N., Ocumpaugh, J., & Biswas, G. (In press). How are feelings of difficulty and familiarity linked to learning behaviors and gains in a complex science learning task? *European Journal of Psychology of Education* 
+**Zhang, Y.**, Yang, Z., & Wang, Y. (Accepted). The impact of extreme response style on the mean comparison of two independent samples. *Sage Open*
 <br>  </p> <p class = "hang">
 
-**Zhang, Y.**, Paquette, L., Bosch, N., Ocumpaugh, J., Biswas, G., Hutt, Stephen., \verb'&' Baker, R. S. (In press). The evolution of metacognitive strategy use in an open-ended learning environment: Do prior domain knowledge and motivation play a role? *Contemprary Educational Psychology*
+**Zhang, Y.**, Paquette, L., Baker, R. S., Bosch, N., Ocumpaugh, J., & Biswas, G. (2022). How are feelings of difficulty and familiarity linked to learning behaviors and gains in a complex science learning task? *European Journal of Psychology of Education* [https://doi.org/10.1007/s10212-022-00616-x](https://link.springer.com/article/10.1007/s10212-022-00616-x){target="_blank"} 
 <br>  </p> <p class = "hang">
 
-**Zhang, Y.**, Paquette, L., Baker, R. S., Ocumpaugh, J., Bosch, N., Biswas, G., '& Munshi, A. (2021). Can strategic behavior facilitate confusion resolution? The interplay between confusion and metacognitive strategies in Betty's Brain. *Journal of Learning Analytics, 8*(3), 28-44. [https://doi.org/10.18608/jla.2021.7161](https://learning-analytics.info/index.php/JLA/article/view/7161) 
+**Zhang, Y.**, Paquette, L., Bosch, N., Ocumpaugh, J., Biswas, G., Hutt, Stephen., \verb'&' Baker, R. S. (2022). The evolution of metacognitive strategy use in an open-ended learning environment: Do prior domain knowledge and motivation play a role? *Contemprary Educational Psychology, 69*, 102064. [https://doi.org/10.1016/j.cedpsych.2022.102064](https://www.sciencedirect.com/science/article/pii/S0361476X22000236){target="_blank"} 
+<br>  </p> <p class = "hang">
+
+**Zhang, Y.**, Paquette, L., Baker, R. S., Ocumpaugh, J., Bosch, N., Biswas, G., '& Munshi, A. (2021). Can strategic behavior facilitate confusion resolution? The interplay between confusion and metacognitive strategies in Betty's Brain. *Journal of Learning Analytics, 8*(3), 28-44. [https://doi.org/10.18608/jla.2021.7161](https://learning-analytics.info/index.php/JLA/article/view/7161){target="_blank"} 
 <br>  </p> <p class = "hang">
 
 
@@ -72,6 +75,4 @@ Paquette, L., Grant, T., **Zhang, Y.**,  Biswas, G., & Baker, R. (2021). Using e
 
 **Zhang, Y.**, & Liu, T. (2019). Using person-fit statistics to detect response styles. Paper presented at *the National Council on Measurement in Education*, Toronto, Canada.
 <br>  </p><p class = "hang">
-
-Yang, Z., **Zhang, Y.**, & Wang, Y. (2019). The impact of extreme response style on the result of mean comparison. Paper presented at *the National Council on Measurement in Education Annual Meeting*, Toronto, Canada.
 </p>

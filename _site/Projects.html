@@ -11,47 +11,41 @@
 
 
 
-<title>Projects.utf8</title>
+<title>Projects.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
 
 
 
@@ -61,10 +55,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -81,40 +71,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -142,7 +105,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -154,7 +117,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -165,10 +128,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -180,7 +156,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -290,7 +265,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -298,26 +273,29 @@ $(document).ready(function () {
 </div>
 
 
+<div id="section" class="section level2">
+<h2>—</h2>
 <p><br> <br></p>
 <p style="font-family:sans-serif; font-size:20px">
 Novice programmers
 </p>
-<p><br> <img src="asset/CAREER.png" style="width:55%;  margin-right: 20px" align="right"> I am participating in this project under <a href="https://education.illinois.edu/faculty/luc-paquette" target="_blank">Dr. Luc Paquette</a>‘s supervision. This project aims to formalize a hybridized approach that combines knowledge elicitation approaches and machine learning to build interpretable and robust prediction models. This method will be applied to support the development of novice programmers’ debugging skills. The data are from a large introductory computer science (CS1) course, hosted on PrairieLearn, a web-based problem-driven learning system. I am responsible for writing codes to extract relevant features from students’ submissions to programming questions, assisting Dr. Paquette in conducting interviews to elicitating experts’ (e.g., instructors and TAs) knowledge about novices’ debugging behaviors, and building the prediction model. <br> <br><br><br><br></p>
+<p><br> <img src="asset/CAREER.png" style="width:55%;  margin-right: 20px" align="right"> I am participating in this project under <a href="https://education.illinois.edu/faculty/luc-paquette" target="_blank">Dr. Luc Paquette</a>’s supervision. This project aims to formalize a hybridized approach that combines knowledge elicitation approaches and machine learning to build interpretable and robust prediction models. This method will be applied to support the development of novice programmers’ debugging skills. The data are from a large introductory computer science (CS1) course, hosted on PrairieLearn, a web-based problem-driven learning system. I am responsible for writing codes to extract relevant features from students’ submissions to programming questions, assisting Dr. Paquette in conducting interviews to elicitating experts’ (e.g., instructors and TAs) knowledge about novices’ debugging behaviors, and building the prediction model. <br> <br><br><br><br></p>
 <hr />
 <p style="font-family:sans-serif; font-size:20px">
 Self-regulated Learning and Affect
 </p>
-<p><br> <img src="asset/Betty.png" style="width:55%;  margin-right: 20px" align="left"> I participated in this project under the supervision of Dr. Luc Paquette. It investigates the link between affect and self-regulated learning in the context of <a href="https://wp0.vanderbilt.edu/oele/bettys-brain/" target="_blank">Betty’s Brain</a>, a computer-based science learning environment. One study that I have conducted examined the association between confusion and metacognitive strategies (MS), skills for regulating cognition. Another research I did is about the role of difficulty and familiarity feelings toward the task in Betty’s Brain. Knowing how these feelings influence learning behaviors may help us design more personalized intervention for students. Overall, I hope to obtain deeper understanding about the interaction between affect and strategic learning behavior in digital learning environments. <br> <br></p>
+<p><br> <img src="asset/Betty.png" style="width:55%;  margin-right: 20px" align="left"> I participated in this project under Dr. Luc Paquette’s supervision. It investigates the link between affect and self-regulated learning in the context of <a href="https://wp0.vanderbilt.edu/oele/bettys-brain/" target="_blank">Betty’s Brain</a>, a computer-based science learning environment. One study that I have conducted examined the association between confusion and metacognitive strategies (MS), skills for regulating cognition. Another research I did is about the role of difficulty and familiarity feelings toward the task in Betty’s Brain. Knowing how these feelings influence learning behaviors may help us design more personalized intervention for students. Overall, I hope to obtain deeper understanding about the interaction between affect and strategic learning behavior in digital learning environments. <br> <br></p>
 <hr />
 <p style="font-family:sans-serif; font-size:20px">
 Response Styles
 </p>
-<p><img src="asset/Response%20styles.png" style="width:57%;  margin-left: 40px" align="right"> <br> This project is my master thesis. Response styles refer to the tendency to select specific categories of a rating scale. The most common types of response styles include acquiescence response style, disacquiescence response style, extreme response style and midpoint response style (see the picture in the right). They can cause subjects’ response to rating scales biased. My thesis investigated how the extreme response style might influence the statistical analyses and compared methods for controlling its undesirable impact. <br> <br></p>
+<p><img src="asset/Response styles.png" style="width:57%;  margin-left: 40px" align="right"> <br> This project is my master thesis. Response styles refer to the tendency to select specific categories of a rating scale. The most common types of response styles include acquiescence response style, disacquiescence response style, extreme response style and midpoint response style (see the picture in the right). They can cause subjects’ response to rating scales biased. My thesis investigated how the extreme response style might influence the statistical analyses and compared methods for controlling its undesirable impact. <br> <br></p>
 <hr />
 <p style="font-family:sans-serif; font-size:20px">
 Assessment for Child-Friendly Schools in rural China
 </p>
 <p><br> <img src="asset/CFS.jpg" style="width:50%;  margin-right: 70px" align="left"> <br> <br> The Assessment of Children’s Learning and Development in <a href="https://www.unicef.org/infobycountry/china_37818.html" target="_blank">Child-Friendly Schools</a>, which is sponsored by the United Nations Children’s Fund, aims to evaluate the effectiveness of Child-Friendly Schools program. I participated the first round of evaluation, undertaking most of the work related to data analysis, such as exploring the factors related to students’ academic performance through hierarchical linear models and linking students’ achievement test scores to a national scale via test equating techniques.<br> <br> <br> <br></p>
+</div>
 
 &nbsp;
 <hr />
@@ -344,7 +322,7 @@ Assessment for Child-Friendly Schools in rural China
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -362,7 +340,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
