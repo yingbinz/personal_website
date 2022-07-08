@@ -21,11 +21,14 @@
 ### About me
 ***
 <p style="font-size:16px; LINE-HEIGHT:26px">
-I am a Ph.D. student in the [DELTA](https://education.illinois.edu/ci/programs-degrees/delta){target="_blank"} program at [the University of Illinois at Urbana-Champaign](https://illinois.edu/){target="_blank"}. Previously, I earned my master’s degree in educational measurement from [Beijing Normal University](https://english.bnu.edu.cn/){target="_blank"}. My research interests are how digital learning environments can support children in becoming self-regulated learners. I am also interested in introductory computer science (CS1) education. My dissertation is about how sequential analysis methods, e.g., sequential pattern mining, lag-sequential analysis, and process mining, can help us understand students' learning behavior. 
-<br><br>
+I am a Ph.D. student in the [DELTA](https://education.illinois.edu/ci/programs-degrees/delta){target="_blank"} program at [the University of Illinois at Urbana-Champaign](https://illinois.edu/){target="_blank"}. Previously, I earned my master’s degree in educational measurement from [Beijing Normal University](https://english.bnu.edu.cn/){target="_blank"}. My research interests are how digital learning environments can support children in becoming self-regulated learners. I am also interested in introductory computer science (CS1) education. My dissertation is about how sequential analysis methods, e.g., sequential pattern mining, lag-sequential analysis, and process mining, can help us understand students' learning behavior.  
+<br>
 Here is my [CV](asset/CV_YZ.pdf).</p>
-<br><br>
+<br>
 
+**I'm looking for a faculty job in China. Feel free to contact me if your institution is hiring. Thank you!**
+
+<br>
 <!-- <a href="asset/CV_YZ.pdf"; style="color: #0B0B0B;"></a>  -->
 <!--   <p class="tab"; style = "font-size: 20px; text-decoration:underline"></p> -->
   
